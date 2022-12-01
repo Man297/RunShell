@@ -1,0 +1,23 @@
+name: RunShell
+version: 1.1.0
+main: com.github.messycraft.runshell.RunShell
+api-version: 1.13
+author: [ ImCur_ , Man297 ]
+description: Use Shell commands in Minecraft!
+website: https://github.com/MessyCraft/RunShell
+
+commands:
+  runshell:
+    usage: /runshell <shellcommand>
+    description: 在服务器主机执行 Shell 命令。
+    permission: runshell.admin
+  runshell-reload:
+    description: 重载 RunShell 的配置文件。
+    permission: runshell.reload
+
+permissions:
+  runshell.admin:
+    default: false
+    description: 拥有此权限可以控制整个服务器主机。
+  runshell.reload:
+    default: op
