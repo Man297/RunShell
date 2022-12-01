@@ -26,6 +26,6 @@ jobs:
         uses: actions/upload-artifact@v3.0.0
         with:
           name: Build Artifact
-          path: ./target/
+          path: ./target/RunShell-1.1.jar
           if-no-files-found: warn
           retention-days: 90
