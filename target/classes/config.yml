@@ -21,7 +21,6 @@ useCMDExecute: true
 # 是否使用命令白名单, 开启后只能使用白名单内的 Shell 命令
 limitCommandExecution: false
 
-# shell命令白名单 需要[limit-command]为 true
 # Shell 命令白名单
 commandWhitelist:
   - exampleCommand
